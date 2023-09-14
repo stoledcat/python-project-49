@@ -21,3 +21,8 @@ publish:
 # установка пакета из операционной системы. pipx указан из-за проблем c pip в Ubuntu 23.04
 package-install: 
 	python3 -m pipx install dist/*.whl
+
+
+# запуск линтера
+make lint:
+	poetry run flake8 brain_games
