@@ -4,7 +4,7 @@
 
 
 ### Example "brain-even"
-[![asciicast](https://asciinema.org/a/BDZ0uQ2JV0ZZeXDEz4PQODsPp.svg)](https://asciinema.org/a/BDZ0uQ2JV0ZZeXDEz4PQODsPp)
+<script async id="asciicast-BDZ0uQ2JV0ZZeXDEz4PQODsPp" src="https://asciinema.org/a/BDZ0uQ2JV0ZZeXDEz4PQODsPp.js"></script>
 
 ### Example "brain-calc"
-[![asciicast](https://asciinema.org/a/SAtcCTSV5hUNPR34rSRHj2XeB.svg)](https://asciinema.org/a/SAtcCTSV5hUNPR34rSRHj2XeB)
+<script async id="asciicast-SAtcCTSV5hUNPR34rSRHj2XeB" src="https://asciinema.org/a/SAtcCTSV5hUNPR34rSRHj2XeB.js"></script>
