@@ -5,3 +5,6 @@
 
 ### Example "brain-even"
 [![asciicast](https://asciinema.org/a/BDZ0uQ2JV0ZZeXDEz4PQODsPp.svg)](https://asciinema.org/a/BDZ0uQ2JV0ZZeXDEz4PQODsPp)
+
+### Example "brain-calc"
+[![asciicast](https://asciinema.org/a/SAtcCTSV5hUNPR34rSRHj2XeB.svg)](https://asciinema.org/a/SAtcCTSV5hUNPR34rSRHj2XeB)
