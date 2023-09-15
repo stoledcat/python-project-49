@@ -10,6 +10,7 @@ brain-games:
 
 # сборка пакета
 build:
+	rm dist/*.*
 	poetry build
 
 
