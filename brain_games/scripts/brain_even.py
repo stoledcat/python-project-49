@@ -17,7 +17,7 @@ def main():
             print('Correct!')
             count += 1
             if count == 3:
-                print("Congratulations,", name)
+                print("Congratulations,", name + "!")
         else:
             print("Let's try again,", name + "!")
             break
