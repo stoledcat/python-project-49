@@ -17,7 +17,7 @@ def even():
             if count == 3:
                 print("Congratulations,", user_name + "!")
         else:
-            print("Let's try again,", user_name + "!")
+            print("Wrong answer. Let's try again,", user_name + "!")
             break
 
 
