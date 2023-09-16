@@ -1,4 +1,3 @@
-# #!/usr/bin/env python3
 import random
 from operator import add, sub, mul
 import prompt

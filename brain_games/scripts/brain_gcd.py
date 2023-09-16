@@ -1,10 +1,10 @@
 from brain_games.cli import user_name
-from brain_games.games.calc import calculation
+from brain_games.games.gcd import gcd_find
 
 
 def main():
     user_name
-    calculation()
+    gcd_find()
 
 
 if __name__ == '__main__':

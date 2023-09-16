@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import random
 import prompt
 from brain_games.cli import user_name
