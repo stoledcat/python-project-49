@@ -1,9 +1,10 @@
 import random
 import prompt
-from brain_games.cli import user_name
+from brain_games.cli import welcome_user
 
 
 def progression():
+    user_name = welcome_user()
     count = 0
     # генерация трех чисел указана с 2, чтобы в итоговом ряду было 5+ элементов
     print('What number is missing in the progression?')

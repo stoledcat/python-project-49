@@ -1,9 +1,10 @@
 import random
 import prompt
-from brain_games.cli import user_name
+from brain_games.cli import welcome_user
 
 
 def is_prime():
+    user_name = welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     count_answers = 0                   # счетчик правильных ответов
     for answers in range(3):
