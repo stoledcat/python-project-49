@@ -25,7 +25,8 @@ def progression():
             print('Correct!')
             count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{hidden_num}'.")
+            print(f"'{answer}' is wrong answer ;(. \
+                Correct answer was '{hidden_num}'.")
             print(f"Let's try again, {user_name}!")
             break
         if count == 3:
