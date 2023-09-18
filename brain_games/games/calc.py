@@ -1,5 +1,5 @@
 import random
-from operator import add, sub, mul
+import operator
 import prompt
 from brain_games.cli import welcome_user
 
@@ -7,21 +7,14 @@ from brain_games.cli import welcome_user
 def calculation():
     user_name = welcome_user()
     print('What is the result of the expression?')
-    ops = (add, sub, mul)
-    oper = ''
+    seq = ((operator.add, '+'), (operator.sub, '-'), (operator.mul, '*'))
     count = 0
     for i in range(3):
         number1, number2 = random.randint(1, 10), random.randint(1, 10)
-        op = random.choice(ops)
-        if op == add:
-            oper = '+'
-        elif op == sub:
-            oper = '-'
-        elif op == mul:
-            oper = '*'
-        print('Question: ', number1, oper, number2)
+        operand, sign = random.choice(seq)
+        print('Question: ', number1, sign, number2)
         user_answer = prompt.string('Your answer: ')
-        right_answer = op(number1, number2)
+        right_answer = str(operand(number1, number2))
         if user_answer == str(right_answer):
             print('Correct!')
             count += 1
