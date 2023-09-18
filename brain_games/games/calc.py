@@ -22,7 +22,7 @@ def calculation():
         print('Question: ', number1, oper, number2)
         user_answer = prompt.string('Your answer: ')
         right_answer = op(number1, number2)
-        if int(user_answer) == right_answer:
+        if user_answer == str(right_answer):
             print('Correct!')
             count += 1
             if count == 3:
