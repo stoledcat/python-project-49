@@ -1,10 +1,11 @@
 import random
 from operator import add, sub, mul
 import prompt
-from brain_games.cli import user_name
+from brain_games.cli import welcome_user
 
 
 def calculation():
+    user_name = welcome_user()
     print('What is the result of the expression?')
     ops = (add, sub, mul)
     oper = ''
