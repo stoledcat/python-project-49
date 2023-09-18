@@ -14,7 +14,7 @@ def gcd_find():
     count = 0
     for i in range(3):
         a, b = random.randint(40, 100), random.randint(40, 100)
-        print('Question: ', a, b)
+        print(f'Question: {a} {b}')
         user_answer = prompt.string('Your answer: ')
         right_answer = math.gcd(a, b)
         if int(user_answer) == right_answer:
