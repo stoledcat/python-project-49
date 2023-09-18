@@ -8,7 +8,6 @@ def progression():
     count = 0
     # генерация трех чисел указана с 2, чтобы в итоговом ряду было 5+ элементов
     print('What number is missing in the progression?')
-
     for k in range(3):
         num1, num2, num3 = (random.randint(2, 10) for i in range(3))
         num2 = (num1 + num2 + num3)  # гарантированное увеличение STOP для range
