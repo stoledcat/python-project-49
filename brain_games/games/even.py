@@ -1,10 +1,10 @@
 import random
 import prompt
-from brain_games.scripts import brain_games
+from brain_games.cli import welcome_user
 
 
 def is_even():
-    user_name = brain_games.main()
+    user_name = welcome_user()
     correct_answer = ['0yes', '1no']  # правильные ответы
     count = 0  # счетчик
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -16,9 +16,9 @@ def is_even():
             print('Correct!')
             count += 1
             if count == 3:
-                print(f"Congratulations, {user_name}!")
+                print("Congratulations,", user_name + "!")
         else:
-            print(f"Wrong answer. Let's try again, {user_name}!")
+            print("Wrong answer. Let's try again,", user_name + "!")
             break
 
 
