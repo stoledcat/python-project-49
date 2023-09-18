@@ -3,7 +3,7 @@ import prompt
 from brain_games.cli import user_name
 
 
-def even():
+def is_even():
     correct_answer = ['0yes', '1no']  # правильные ответы
     count = 0  # счетчик
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -22,4 +22,4 @@ def even():
 
 
 if __name__ == '__main__':
-    even()
+    is_even()

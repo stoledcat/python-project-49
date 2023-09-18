@@ -14,3 +14,6 @@
 
 ### Example "brain-progression"
 [![asciicast](https://asciinema.org/a/OqB0iJq2Y5BNVqKfe5JXjeCig.svg)](https://asciinema.org/a/OqB0iJq2Y5BNVqKfe5JXjeCig)
+
+### Example "brin-prime"
+[![asciicast](https://asciinema.org/a/daGW5YK61F9gIhMdh0XSxHDt3.svg)](https://asciinema.org/a/daGW5YK61F9gIhMdh0XSxHDt3)
