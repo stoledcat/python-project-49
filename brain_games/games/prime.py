@@ -3,23 +3,27 @@ import prompt
 from brain_games.cli import welcome_user
 
 
+def prime_check(random_num):
+    divider = 2
+    while random_num % divider != 0:
+        divider += 1
+    if divider == random_num:
+        right_answer = 'yes'
+    else:
+        right_answer = 'no'
+    return right_answer
+
+
 def is_prime():
     user_name = welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    count_answers = 0                   # счетчик правильных ответов
+    count_answers = 0
     for answers in range(3):
-        count_div = 0                   # счетчик делителей
-        num = random.randint(2, 10)
-        print('Question:', num)
-        for i in range(2, num + 1):     # перебор делителей включая само число
-            if (num % i) == 0:          # проверка на деление без остатка
-                count_div += 1
-        if count_div == 1:
-            right_answer = 'yes'
-        else:
-            right_answer = 'no'
+        random_num = random.randint(2, 101)
+        right_answer = prime_check(random_num)
+        print('Question:', random_num)
         user_answer = prompt.string('Your answer: ')
-        if user_answer == right_answer:  # сравнение ответов
+        if user_answer == right_answer:
             print('Correct!')
             count_answers += 1
             if count_answers == 3:
@@ -27,7 +31,3 @@ def is_prime():
         else:
             print(f"Wrong answer. Let's try again, {user_name}!")
             break
-
-
-if __name__ == '__main__':
-    is_prime()
