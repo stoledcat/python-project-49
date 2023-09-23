@@ -18,6 +18,7 @@ def repeated_code(task):
         else:
             print(f"'{user_answer}' is wrong answer ;(.' \
 Correct answer was '{right_answer}'")
+            print(f"Let's try again, {user_name}!")
             break
     if win_count == 3:
         print(f'Congratulations, {user_name}!')
