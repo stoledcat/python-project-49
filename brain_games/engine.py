@@ -16,7 +16,8 @@ def repeated_code(task):
             print('Correct!')
             win_count += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(.' Correct answer was '{right_answer}'")
+            print(f"'{user_answer}' is wrong answer ;(.' \
+Correct answer was '{right_answer}'")
             break
-        if win_count == 3:
-            print(f'Congratulations, {user_name}!')
+    if win_count == 3:
+        print(f'Congratulations, {user_name}!')
