@@ -18,10 +18,9 @@ def calculation():
         if user_answer == str(right_answer):
             print('Correct!')
             count += 1
-            if count == 3:
-                print(f"Congratulations, {user_name}!")
         else:
             print(f"'{user_answer}' is wrong answer ;(.' \
                 Correct answer was '{right_answer}'")
             print(f"Let's try again, {user_name}!")
             break
+        print(f"Congratulations, {user_name}!")
