@@ -15,8 +15,7 @@ def is_even():
         if str(number % 2) + answer in correct_answer:  # сверяемся с ответами
             print('Correct!')
             count += 1
-            if count == 3:
-                print("Congratulations,", user_name + "!")
         else:
             print("Wrong answer. Let's try again,", user_name + "!")
             break
+        print("Congratulations,", user_name + "!")
