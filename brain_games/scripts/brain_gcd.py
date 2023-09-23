@@ -1,10 +1,6 @@
-#!/usr/bin/env python3
-from brain_games.games.gcd import gcd_find
+from brain_games.engine import repeated_code
+from brain_games.games import gcd
 
 
 def main():
-    gcd_find()
-
-
-if __name__ == '__main__':
-    main()
+    repeated_code(gcd)
