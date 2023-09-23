@@ -30,7 +30,3 @@ def progression():
             break
         if count == 3:
             print(f"Congratulations, {user_name}!")
-
-
-if __name__ == '__main__':
-    progression()

@@ -27,7 +27,3 @@ def gcd_find():
                 Correct answer was '{right_answer}'.")
             print(f"Let's try again, {user_name}!")
             break
-
-
-if __name__ == '__main__':
-    gcd_find()

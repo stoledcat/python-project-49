@@ -20,7 +20,3 @@ def is_even():
         else:
             print("Wrong answer. Let's try again,", user_name + "!")
             break
-
-
-if __name__ == '__main__':
-    is_even()
