@@ -1,6 +1,7 @@
 from operator import add, sub, mul
 from random import randint, choice
 
+
 operations = ((add, '+'), (sub, '-'), (mul, '*'))
 description = 'What is the result of the expression?'
 

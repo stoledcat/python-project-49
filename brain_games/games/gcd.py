@@ -1,6 +1,7 @@
 import math
 import random
 
+
 description = 'Find the greatest common divisor of given numbers.'
 
 
