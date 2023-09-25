@@ -20,5 +20,5 @@
 [![asciicast](https://asciinema.org/a/OqB0iJq2Y5BNVqKfe5JXjeCig.svg)](https://asciinema.org/a/OqB0iJq2Y5BNVqKfe5JXjeCig)
 
 ### Игра «Простое ли число?» 
-Пользователю показывается число. Необходимо вычислить, является ли оно простым (делится на 1 и само себя). Ответить "yes", если оно является простым, или "no" - не является таковым:
+Пользователю показывается число. Необходимо вычислить, является ли оно простым (делится на 1 и само себя). Ответить "yes", если оно является простым, или "no" - если не является таковым:
 [![asciicast](https://asciinema.org/a/daGW5YK61F9gIhMdh0XSxHDt3.svg)](https://asciinema.org/a/daGW5YK61F9gIhMdh0XSxHDt3)
