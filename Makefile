@@ -24,8 +24,11 @@ package-uninstall:
 	python3 -m pipx uninstall hexlet-code
 
 
-# установка пакета из операционной системы. pipx указан из-за проблем c pip в Ubuntu 23.04
-package-install: 
+package-install-pip:
+	python3 -m pip install --user dist/*.whl
+
+
+package-install-pipx: 
 	python3 -m pipx install dist/*.whl
 
 
