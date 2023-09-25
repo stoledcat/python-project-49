@@ -27,6 +27,6 @@
 ### Установка
 ```make package-install-pip``` - установка с помощью стандартного инструмента ```pip```
 
-```make package-install-pipx``` - установка с помощью инструмента ```pipx``` используется для установки в версиях Ubuntu 23.04 и выше
+```make package-install-pipx``` - установка с помощью инструмента ```pipx``` используется в версиях Ubuntu 23.04 и выше
 
 ```make package-uninstall``` - удаление пакета ```brain-games```
