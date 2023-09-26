@@ -2,10 +2,15 @@
 name = "hexlet-code"
 version = "0.6.0"
 description = "First project on hexlet.io named 'The Brain Games'"
-# classifiers = [
-#     "Topic :: Software Development :: Build Tools",
-#     "Topic :: Software Development :: Libraries :: Python Modules"
-# ]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+    "Environment :: Console"
+    "License :: Freeware"
+    "Development Status :: 5 - Production/Stable"
+    "Operating System :: Unix"
+    "Programming Language :: Python :: 3.11"
+]
 repository = "https://github.com/stoledcat/python-project-49"
 authors = ["stoledcat <jetnavo@yandex.ru>"]
 readme = "README.md"
