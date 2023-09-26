@@ -24,11 +24,7 @@ package-uninstall:
 	python3 -m pipx uninstall hexlet-code
 
 
-package-install-pip:
-	python3 -m pip install --user dist/*.whl
-
-
-package-install-pipx: 
+package-install: 
 	python3 -m pipx install dist/*.whl
 
 
