@@ -8,7 +8,7 @@
 [![asciicast](https://asciinema.org/a/BDZ0uQ2JV0ZZeXDEz4PQODsPp.svg)](https://asciinema.org/a/BDZ0uQ2JV0ZZeXDEz4PQODsPp)
 
 ### Игра «Калькулятор»
-Пользователю показывается случайное математическое выражение, которое нужно вычислить и записать правильный отве:
+Пользователю показывается случайное математическое выражение. Необходимо вычислить и записать правильный ответ:
 [![asciicast](https://asciinema.org/a/SAtcCTSV5hUNPR34rSRHj2XeB.svg)](https://asciinema.org/a/SAtcCTSV5hUNPR34rSRHj2XeB)
 
 ### Игра «Наибольший Общий Делитель (НОД)»
