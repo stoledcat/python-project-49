@@ -2,6 +2,11 @@
 name = "hexlet-code"
 version = "0.6.0"
 description = "First project on hexlet.io named 'The Brain Games'"
+# classifiers = [
+#     "Topic :: Software Development :: Build Tools",
+#     "Topic :: Software Development :: Libraries :: Python Modules"
+# ]
+repository = "https://github.com/stoledcat/python-project-49"
 authors = ["stoledcat <jetnavo@yandex.ru>"]
 readme = "README.md"
 packages = [ { include = "brain_games" }, ]
