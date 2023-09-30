@@ -1,5 +1,7 @@
 import prompt
 
+ROUNDS = 3
+
 
 def repeated_code(task):
     print('Welcome to the Brain Games!')
@@ -7,8 +9,7 @@ def repeated_code(task):
     print(f'Hello, {user_name}!')
     print(task.description)
     win_count = 0
-    rounds = 3
-    while win_count < rounds:
+    while win_count < ROUNDS:
         question, right_answer = task.game_task()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
