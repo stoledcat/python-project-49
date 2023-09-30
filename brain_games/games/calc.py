@@ -6,7 +6,7 @@ OPERATIONS = ((add, '+'), (sub, '-'), (mul, '*'))
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def game_task():
+def start_function():
     number1, number2 = randint(1, 10), randint(1, 10)
     operator, sign = choice(OPERATIONS)
     right_answer = str(operator(number1, number2))

@@ -10,7 +10,7 @@ def start_game(task):
     print(task.DESCRIPTION)
     win_count = 0
     while win_count < ROUNDS:
-        question, right_answer = task.game_task()
+        question, right_answer = task.start_function()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if right_answer == user_answer:

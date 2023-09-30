@@ -4,7 +4,7 @@ import random
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def game_task():
+def start_function():
     start_number, stop_number, step = (random.randint(2, 30) for i in range(3))
     stop_number = (start_number + stop_number + step) * 5
     progression = list(range(start_number, stop_number, step))
