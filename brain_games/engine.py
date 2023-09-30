@@ -7,7 +7,7 @@ def repeated_code(task):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
-    print(task.description)
+    print(task.DESCRIPTION)
     win_count = 0
     while win_count < ROUNDS:
         question, right_answer = task.game_task()
