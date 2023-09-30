@@ -3,7 +3,7 @@ import prompt
 ROUNDS = 3
 
 
-def repeated_code(task):
+def starting_game(task):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
