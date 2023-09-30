@@ -1,7 +1,7 @@
 import random
 
 
-description = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def game_task():
