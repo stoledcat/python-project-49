@@ -12,4 +12,5 @@ def start_function():
     index_answer = random.choice(range(0, len_question))
     right_answer = question[index_answer]
     question[index_answer] = '..'
+    question = ' '.join(map(str, question))
     return question, str(right_answer)
