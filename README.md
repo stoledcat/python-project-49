@@ -28,3 +28,5 @@
 ```make package-install``` - установка с помощью инструмента ```pipx``` используется в версиях Ubuntu 23.04 и выше
 
 ```make package-uninstall``` - удаление пакета ```brain-games```
+
+Used Poetry - version 1.6.1
